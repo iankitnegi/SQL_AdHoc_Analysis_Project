@@ -154,16 +154,16 @@ GROUP BY d.customer_code
 ORDER BY average_discount_percentage DESC  
 LIMIT 5;  
 
-#Q7
-SELECT MONTHNAME(date) AS month_, s.fiscal_year, ROUND(SUM((gross_price*sold_quantity)),2) AS gross_sales_amount
-FROM fact_gross_price f
-JOIN fact_sales_monthly s
-ON f.product_code=s.product_code
-JOIN dim_customer d
-ON d.customer_code=s.customer_code
-WHERE customer="Atliq Exclusive"
-GROUP BY s.fiscal_year, month_
-ORDER BY s.date;
+#Q7	
+SELECT MONTHNAME(date) AS month_, s.fiscal_year, ROUND(SUM((gross_price*sold_quantity)),2) AS gross_sales_amount	
+FROM fact_gross_price f	
+JOIN fact_sales_monthly s	
+ON f.product_code=s.product_code	
+JOIN dim_customer d	
+ON d.customer_code=s.customer_code	
+WHERE customer="Atliq Exclusive"	
+GROUP BY s.fiscal_year, month_	
+ORDER BY s.date;	
 
 #Q8
 WITH cte AS(
