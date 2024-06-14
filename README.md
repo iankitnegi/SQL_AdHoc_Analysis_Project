@@ -85,7 +85,7 @@ Column Description for fact_sales_monthly:
 
 ### Data Cleaning & Transformation:
 - In PowerBI, Replace Newzealand with New Zealand.
-- 
+- Performing data validation of all the datasets.
 
 ## 4. ANALYZE  
 Data Analyzing  
@@ -220,10 +220,7 @@ WHERE rank_order IN (1, 2, 3);
 - In 2019, September was the lowest performing month, while November saw the highest performance. For 2020, March was the lowest performing month, with November again being the highest.
 - The first quarter of 2020 (September, October, November) saw the highest number of products sold.
 - The retailer channel significantly boosted gross sales in the fiscal year 2021, contributing 73.23%.
-- The top-selling products in the fiscal year 2021 were as follows:
-	N&S Division: AQ Pen Drive 2 in 1, AQ Pen Drive DRC
-	P&A Division: AQ Gamers MS, AQ Maxima MS
-	PC Division: AQ Digit, AQ Velocity
+- The top-selling products in the fiscal year 2021 were as follows: N&S Division: AQ Pen Drive 2 in 1, AQ Pen Drive DRC, P&A Division: AQ Gamers MS, AQ Maxima MS, PC Division: AQ Digit, AQ Velocity
 
 
 ### Recommendations:
