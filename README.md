@@ -207,7 +207,11 @@ FROM cte
 WHERE rank_order IN (1, 2, 3);        
 
 
-## 5. SHARE
+## 5. SHARE	
+![Screenshot (105)](https://github.com/iankitnegi/SQL_AdHoc_Analysis_Project/assets/132642567/0d2cf631-79c4-4f59-8270-c869f39f7720)
+![Screenshot (106)](https://github.com/iankitnegi/SQL_AdHoc_Analysis_Project/assets/132642567/c08b0324-fab1-493d-bcad-a57406b74cb5)
+
+
 
 ## 6. ACT
 ### Insights:
