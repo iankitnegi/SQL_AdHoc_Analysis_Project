@@ -233,6 +233,6 @@ WHERE rank_order IN (1, 2, 3);
 - Cost Reduction: Reduce manufacturing costs for the AQ HOME Allin1 Gen 2.
 - Replicate Q1 Success: Analyze and replicate strategies that boosted first-quarter sales in 2020.
 
-Thank you for reading and evaluating my repo :)
+Thank you for reading and evaluating my repo :)		
 [LinkedIn](https://www.linkedin.com/posts/iankitnegi_consumer-goods-activity-7208884039053713410-SAWU?utm_source=share&utm_medium=member_desktop)
 
